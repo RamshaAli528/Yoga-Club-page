@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Fuggles&family=Playball&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Yoga Club</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url(imgs/kike-vega-F2qh3yjz6Jk-unsplash.jpg);
+     overflow: hidden;
+      height: 100%;
+      background-repeat: no-repeat;
+      color: white;
+      background-size: cover;
+    }
+    .left {
+      display: inline-block;
+      position: absolute;
+      left: 34px;
+      top: 10px;
+      text-align: center;
+    }
+    .left div {
+      font-family: "Playball", cursive;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .left img {
+      width: 80px;
+    }
+    .center {
+      display: block;
+      width: 33%;
+      margin: 20px auto;
+    }
+
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 15px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 18px;
+    }
+    .navbar li a:hover,
+    .navbar li a:active {
+      color: white;
+      background: #796d92;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 9px;
+    }
+    .right {
+      display: inline-block;
+      position: absolute;
+      right: 34px;
+      top: 27px;
+    }
+    .btn {
+      background: #554c69;
+      color: white;
+      border-radius: 10px;
+      padding: 7px 17px;
+      cursor: pointer;
+      font-style: italic;
+      font-size: 14px;
+    }
+    .btn:hover {
+      background: #756c88;
+      color: white;
+    }
+    .container {
+      border: 6px rgb(121, 58, 13);
+      height: 550px;
+      width: 500px;
+      padding: 10px 30px;
+      margin: 100px 100px;
+      background: rgb(99, 87, 110);
+      opacity: 0.5;
+      border-radius: 70px;
+    }
+    
+    .container button  {
+        display: block;
+        border-radius: 15px;
+        width: 45%;
+        padding: 8px;
+        margin: 19px auto;
+        background: #0f0525;
+        color: white;
+        cursor: pointer;
+    }
+    .container button:hover{
+        background: #936bb6;
+        color: rgb(13, 5, 19);
+        font-weight: bold;
+        font-size: 100%;
+    }
+    form{
+        margin: 25px auto;
+    }
+    h3{
+        text-align: center;
+        color: rgb(252, 252, 252);
+        font-weight: bold;
+        font-size: larger;
+        
+    }
+    .container label{
+        color: white;
+        display: block;
+        padding: 10px 20px;
+    }
+    .container input{
+        margin: 6px auto;
+        width: 80%;
+        display: block;
+        padding: 10px 10px;
+        border-radius: 13px;
+    }
+    
+
+  </style>
+  <body>
+    <header>
+      <div class="left">
+        <div class="logo">
+          <img
+            src="imgs/circular-swoosh-with-nature-leaf-and-women-yoga-free-vector-removebg-preview.png"
+            alt="logo"
+          />
+          <div>Circle Of Yoga</div>
+        </div>
+      </div>
+      <div class="center">
+        <ul class="navbar">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">DISCOUNTS</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+        <form action="#" class="form">
+            <h3>JOIN US NOW</h3>
+      <label for="Name">Name:
+      <input type="text" class="form" id="Name" placeholder="Enter Name" /></label>
+      <label for="Email">Email:
+      <input type="email" class="form" id="Email" placeholder=" Enter Email" /></label>
+      <label for="Password">Password:
+      <input
+        type="password"
+        class="form"
+        id="Password"
+        placeholder="Enter Password"
+      /></label>
+      <label for="Password">Re-Enter Password:
+      <input
+        type="password"
+        class="form"
+        id="Password"
+        placeholder="Confirm Password"
+      /></label></form>
+      <div class="btn2">
+      <button>Submit</button>
+      <button>Login</button></div>
+    </div>
+  </body>
+</html>
